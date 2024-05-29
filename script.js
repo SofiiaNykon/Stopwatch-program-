@@ -13,10 +13,19 @@ if(!isRunning){
 }
 }
 function stop(){
+    if(isRunning){
+        clearInterval(timer);
+        elapsedTime = Date.now() - startTime;
+        isRunning =false;
+    }
 
 }
 function reset(){
-    
+    clearInterval(timer);
+   startTime = 0;
+   elapsedTime = 0;
+   isRunning = false; 
+    timeString.textContent = startTime;
 }
 function upDate(){
 const currentTime = Date.now();
@@ -31,5 +40,5 @@ hours = String(hours).padStart(2, "0");
 minutes = String(minutes).padStart(2, "0");
 seconds = String(seconds).padStart(2, "0");
 miliseconds = String(miliseconds).padStart(2, "0");
-timeString = textContent = `${hours}:${minutes}:${seconds}:${miliseconds}`;
+timeString.textContent = `${hours}:${minutes}:${seconds}:${miliseconds}`;
 }
