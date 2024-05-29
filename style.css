@@ -27,6 +27,9 @@ font-weight: 600;
 font-size: 70px; 
  
 }
+#reset{
+    
+}
 #start, #reset,  #stop {
     border-radius: 20px;
     font-size: 60px;
@@ -45,7 +48,7 @@ background-color: rgb(22, 243, 22);
     background-color: rgb(255, 0, 0);
 }
 #reset{
-    background-color: rgb(13, 174, 248);
+    background-color: rgb(33, 60, 180);
 }
 #rest:hover{
     background-color: rgba(47, 0, 255, 0.925);
