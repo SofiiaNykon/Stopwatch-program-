@@ -27,7 +27,7 @@ font-weight: 600;
 font-size: 70px; 
  
 }
-.button{
+#start, #reset,  #stop {
     border-radius: 20px;
     font-size: 60px;
     color: white;
