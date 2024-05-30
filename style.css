@@ -27,31 +27,20 @@ font-weight: 600;
 font-size: 70px; 
  
 }
-#reset{
-    
-}
-#start, #reset,  #stop {
+
+#startBtn, #resetBtn,  #stopBtn {
     border-radius: 20px;
     font-size: 60px;
     color: white;
 }
-#start{
-background-color: rgb(12, 150, 12);
+#startBtn{
+background-color: rgb(18, 102, 18);
 }
-#start:hover{
-background-color: rgb(22, 243, 22);
+#stopBtn{
+    background-color: rgb(255, 23, 23);
 }
-#stop{
-    background-color: rgb(235, 94, 94);
-}
-#stop:hover{
-    background-color: rgb(255, 0, 0);
-}
-#reset{
-    background-color: rgb(33, 60, 180);
-}
-#rest:hover{
-    background-color: rgba(47, 0, 255, 0.925);
+#resetBtn{
+    background-color: rgb(5, 48, 236);
 }
 .buttons{
     margin-top: 70px;
